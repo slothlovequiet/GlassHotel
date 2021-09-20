@@ -1,11 +1,10 @@
-/*шрифты*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
 @import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 .header__fixed {
 position: fixed ;
 animation-name: show__header;
-animation-duration: 0.5s;
+animation-duration: 1s;
 background-color: #ffff;
 font-family: "openSans";
 width:100%;
@@ -52,6 +51,7 @@ z-index: 2;
   top: 18px;
   z-index: 3;
 }
+
 .menu {
   z-index: 3;
   position: absolute;
@@ -129,6 +129,7 @@ z-index: 2;
   left: calc(50% - 25px / 2 + 282.5px);
   top: calc(50% - 25px / 2 + 0.5px);
 }
+
 .booking-button {
   padding: 20px 32px 20px 0px;
   position: absolute;

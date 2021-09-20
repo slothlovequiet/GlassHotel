@@ -1,0 +1,29 @@
+header {
+  background-color: #ffff;
+  font-family: "opensans";
+  width: 100vh;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000000;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.menu {
+  padding-right: 36px;
+  max-height: 24px;
+  position: absolute;
+}
+.booking-button {
+  height: 60px;
+  width: 200px;
+  background-color: grey;
+  display: inline-block;
+}
