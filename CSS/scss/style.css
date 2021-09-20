@@ -1,0 +1,317 @@
+/*шрифты*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.header__fixed {
+position: fixed ;
+animation-name: show__header;
+animation-duration: 0.5s;
+background-color: #ffff;
+font-family: "openSans";
+width:100%;
+height: 100px;
+left: 0px;
+top: 0px;
+z-index: 2;
+}
+
+@keyframes show__header {
+  0%{
+    opacity: 0;
+    top: -70px;
+  }
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.header {
+  background-color: #ffff;
+  background-color: #ffff;
+  font-family: "openSans";
+  position: absolute;
+  width: 1408px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+.header__nav {
+  position: absolute;
+  width: 541px;
+  height: 25px;
+  left: 458px;
+  top: 38px;
+}
+.logo {
+  position: absolute;
+  width: 70.26px;
+  height: 65.1px;
+  left: 146px;
+  top: 18px;
+  z-index: 3;
+}
+.menu {
+  z-index: 3;
+  position: absolute;
+  width: 491px;
+  height: 24px;
+  left: 30%;
+  top: 38px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-transform: uppercase;
+  list-style: none;
+}
+.header__link {
+  color: black;
+}
+.home {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  left: calc(50% - 39px / 2 - 226.5px);
+  top: calc(50% - 24px / 2);
+}
+
+.thehut {
+  position: absolute;
+  height: 24px;
+  left: calc(50% - 57px / 2 - 142.5px);
+  top: calc(50% - 24px / 2);
+  color: #000000;
+}
+.area {
+  position: absolute;
+  
+  height: 24px;
+  left: calc(50% - 64px / 2 - 46px);
+  top: calc(50% - 24px / 2);
+
+  color: #000000;
+}
+.booking {
+  position: absolute;
+  width: 60px;
+  height: 24px;
+  left: calc(50% - 60px / 2 + 52px);
+  top: calc(50% - 24px / 2);
+
+  color: #000000;
+}
+.aboutus {
+  position: absolute;
+
+  height: 24px;
+  left: calc(50% - 66px / 2 + 151px);
+  top: calc(50% - 24px / 2);
+
+  color: #000000;
+}
+.faq {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  left: calc(50% - 25px / 2 + 232.5px);
+  top: calc(50% - 24px / 2);
+  color: #000000;
+}
+.flag {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: calc(50% - 25px / 2 + 282.5px);
+  top: calc(50% - 25px / 2 + 0.5px);
+}
+.booking-button {
+  padding: 20px 32px 20px 0px;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  padding-left: 80%;
+ 
+}
+
+.wrapper-intro {
+padding-top: 100px;
+}
+
+.intro1 {
+  width: 100%;
+}
+.intro-text1 {
+  font-family: 'Open Sans';
+  position: absolute;
+  color:ivory;
+  display: inline-block;
+  font-size: 70px;
+  line-height: 72px;
+  padding-left: 42%;
+  top: 195px;
+}
+
+.intro-text2 {
+  font-family: 'Open Sans';
+  position: absolute;
+  color:ivory;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 60%;
+  top: 301px;
+  text-align: center;
+}
+.button-with-price {
+  position: relative;
+  transform: translateY(-50px);
+  left: 10%;
+  width: 383px;
+  height: 100px;
+
+}
+
+.cabins {
+ 
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+ .text-wrapper {
+  padding-left: 147px;
+  padding-top: 87px;
+  height: 351px;
+  width: 465px;
+ }
+
+ h3 {
+  font-family: 'Open Sans';
+  font-size: 40px;
+  line-height: 40px;
+  color: #5B6460;
+ }
+
+ .cabins-text2 {
+  position: relative;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  height: 351px;
+  width: 20%;
+ }
+ .cabin {
+   position: relative;
+   padding-left: 5% ;
+   width: 45%;
+   height: 438px;
+ }
+
+ .cabins-photo-wrapper {
+   width: 100%;
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   padding: 40% 30px 0 0;
+   justify-content:space-between;
+ }
+ .cabphoto {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-left: 20px;
+ }
+ .map {
+   display: inline-block;
+   display: inline-flex;
+   padding: 678px 0 0 0;
+ } 
+ .mapmap {
+   position: relative;
+   display: inline-block;
+   display: run-in;
+   width: 50%;
+ }
+
+ .theforest {
+   display: inline-block;
+   background-color: #E9ECE0;
+   width: 100%;
+ }
+ .theforesth3 {
+   margin: 20% 0 0 15%;
+ }
+ .theforesttextwrapper {
+   margin: 10% 10% 0 15%;
+  display: inline-block;
+  max-height: 60% ;
+  min-width: 50%;
+  
+ }
+
+ .theforesttext {
+   height: 60% ;
+   width: 50%;
+   line-height: 30px;
+   color: #333333;
+   text-align: left;
+   /* margin-left: 60%; */
+ }
+/* .firstimage {
+  position: absolute;
+  width: 1409px;
+  height: 701px;
+  left: 0px;
+  top: 100px;
+}
+.frame27 {
+  position: absolute;
+  width: 743px;
+  height: 190px;
+  left: 607px;
+  top: 195px;
+}
+.f27g671 {
+  position: absolute;
+  height: 72px;
+  left: -1.48%;
+  right: 0%;
+  top: calc(50% - 72px / 2 - 59px);
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 72px;
+  
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.f27g67 {
+  position: absolute;
+  height: 84px;
+  left: 43.88%;
+  right: 11.31%;
+  top: calc(50% - 84px / 2 + 53px);
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  
+
+  text-align: center;
+
+  color: #ffffff;
+} */
